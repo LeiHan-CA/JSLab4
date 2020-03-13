@@ -33,8 +33,8 @@ function strange(jsonObj){
         img.setAttribute('alt', strange[i].image);
 
         h2.textContent = strange[i].name;
-        h3.textContent = 'Price, ' + strange[i].price;
-        h4.textContent = 'Details, ' + strange[i].details;
+        h3.textContent = 'Price: ' + strange[i].price;
+        h4.textContent = 'Details: ' + strange[i].details;
 
         article.appendChild(img);
         article.appendChild(h2);
