@@ -1,0 +1,38 @@
+{
+  "strange": [
+    {
+      "name": "cat butt tissue holder",
+      "price": 34.94,
+      "details": "This seems like the nicest thing to be plucked from a cat's rear since, well, ever.",
+      "image": "image-1.jpg"
+    },
+
+    {
+      "name": "Godzilla garden gnome",
+      "price": 24.99,
+      "details": "Let those pesky, roving neighborhood gnomes know where they're not welcome.",
+      "image": "image-2.jpg"
+    },
+
+    {
+      "name": "pizza hat",
+      "price": 11.62,
+      "details": "you can indulge in everyone's life-long desire of wearing pizza atop their head",
+      "image": "image-3.jpg"
+    },
+
+    {
+      "name": "realistic dog pillow",
+      "price": 14.99,
+      "details": "Just because your building doesn't allow pets doesn't mean you can't enjoy",
+      "image": "image-4.jpg"
+    },
+
+    {
+      "name": "fish pencil case",
+      "price": 3.97,
+      "details": "Not every kid is eager to go to school with a Hello Kitty pencil case, but with fish",
+      "image": "image-5.jpg"
+    }
+  ]
+}
