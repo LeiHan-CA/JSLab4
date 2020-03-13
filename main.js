@@ -25,17 +25,16 @@ function strange(jsonObj){
         let article = document.createElement('article');
         let h2 = document.createElement('h2');
         let img = document.createElement('img');
-        let p1 = document.createElement('p1');
-        let p2 = document.createElement('p2');
-        let ul = document.createElement('ul');
+        let h3 = document.createElement('h3');
+        let h4 = document.createElement('h4');
 
         img.setAttribute('src',
             'https://leihan-ca.github.io/JSLab4/image/' + strange[i].image);
         img.setAttribute('alt', strange[i].image);
 
         h2.textContent = strange[i].name;
-        p1.textContent = 'Price, ' + strange[i].price;
-        p2.textContent = 'Details, ' + strange[i].details;
+        h3.textContent = 'Price, ' + strange[i].price;
+        h4.textContent = 'Details, ' + strange[i].details;
 
         article.appendChild(img);
         article.appendChild(h2);
