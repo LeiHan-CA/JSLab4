@@ -12,13 +12,14 @@ request.send();
 //invoke strange function with strange as argument
 request.onload = function(){
     let strangeThings = request.response;
-    console.log(strangeThings);
     strange(strangeThings);
 };
 
 function strange(jsonObj){
     let strange = jsonObj.strange;
     let section = document.querySelector('section');
+
+    //use for loop to access each item
     for (let i =0; i < strange.length; i++){
         //build HTML elements
 
