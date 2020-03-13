@@ -1,4 +1,4 @@
-let requestURL = 'https://leihan-ca.github.io/JSLab4/strange.json';
+let requestURL = 'http://leihan.ca/JavaScript/Lab4-JSON/strange.json';
 //create new XHR object
 let request = new XMLHttpRequest();
 
@@ -29,7 +29,7 @@ function strange(jsonObj){
         let h4 = document.createElement('h4');
 
         img.setAttribute('src',
-            'https://leihan-ca.github.io/JSLab4/image/' + strange[i].image);
+            'http://leihan.ca/JavaScript/Lab4-JSON/image/' + strange[i].image);
         img.setAttribute('alt', strange[i].image);
 
         h2.textContent = strange[i].name;
