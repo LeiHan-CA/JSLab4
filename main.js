@@ -38,8 +38,8 @@ function strange(jsonObj){
 
         article.appendChild(img);
         article.appendChild(h2);
-        article.appendChild(p1);
-        article.appendChild(p2);
+        article.appendChild(h3);
+        article.appendChild(h4);
         section.appendChild(article);
 
     }
